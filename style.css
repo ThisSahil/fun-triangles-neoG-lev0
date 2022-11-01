@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mali", cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d1fae5;
+  margin-bottom: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 4rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.link-active {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
+}
+
+.side-input,
+.angle-input {
+  width: 40%;
+  height: 5vh;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+#check-btn,
+#area-btn,
+#hypotenuse-btn,
+#submit-btn {
+  margin: 1rem;
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #0d9488;
+  color: white;
+}
+
+#output-box {
+  margin-top: 1rem;
+  font-size: large;
+  font-weight: bold;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.ques {
+  margin-top: 2rem;
+  font-size: large;
+  font-weight: 400;
+}
+
+.opts {
+  margin-right: 0.3rem;
+}
